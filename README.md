@@ -46,7 +46,7 @@ This section focuses on processing the JSON file containing extracted data. The 
 The final section utilizes the processed text data to answer specific questions related to the MongoDB balance sheet. The steps include:
 
 - Loading the text data.
-- Splitting the text into manageable chunks.
+- Splitting the text into manageable chunks.(Right now chunks are large and can be optimized further)
 - Performing text embeddings using Cohere.
 - Building a retrieval-based question-answering model.
 - Asking questions and obtaining answers based on the processed data.
